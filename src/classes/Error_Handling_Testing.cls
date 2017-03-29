@@ -38,9 +38,11 @@ public with sharing class Error_Handling_Testing {
     /*** Accounts ***/
 
     public static String inserAccountWithAddress() {
+    	Id businessTypeId = [SELECT Id, DeveloperName, Name FROM RecordType WHERE Name = 'Business Organization' LIMIT 1].Id;
         Account newAccount = new Account(
             Name = 'Tommy place of business' +String.valueOf( System.now().day() + ' ' + System.now().minute() ),
-            RecordTypeId = '01241000000KFqFAAW', // Business Organization
+            RecordTypeId = businessTypeId, // Business Organization
+            TEST_REQUIRED_FIELD__c = 'Value',
             // RecordTypeId = '01241000000KFqEAAW', // Administrative
             BillingStreet = '!234 MailingStreet Rd',
             BillingCity = 'That Place',

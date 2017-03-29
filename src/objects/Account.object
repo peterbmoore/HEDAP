@@ -34,6 +34,17 @@
         <trackFeedHistory>false</trackFeedHistory>
         <type>Lookup</type>
     </fields>
+    <fields>
+        <fullName>TEST_REQUIRED_FIELD__c</fullName>
+        <description>This field is only for testing error handling and should not be merged.</description>
+        <externalId>false</externalId>
+        <label>TEST REQUIRED FIELD</label>
+        <length>20</length>
+        <required>true</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
     <validationRules>
         <fullName>Force_Error</fullName>
         <active>false</active>

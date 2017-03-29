@@ -165,6 +165,7 @@
     <types>
         <members>Account.Current_Address__c</members>
         <members>Account.Primary_Contact__c</members>
+        <members>Account.TEST_REQUIRED_FIELD__c</members>
         <members>Address__c.Address_Type__c</members>
         <members>Address__c.Default_Address__c</members>
         <members>Address__c.Formula_MailingAddress__c</members>
