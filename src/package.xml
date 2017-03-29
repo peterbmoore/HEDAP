@@ -59,6 +59,7 @@
         <members>ERR_Handler</members>
         <members>ERR_Handler_TEST</members>
         <members>ERR_Notifier</members>
+        <members>Error_Handling_Testing</members>
         <members>PREN_Affiliation_TDTM</members>
         <members>PREN_Affiliation_TEST</members>
         <members>REL_Relationships_Cm_TDTM</members>
@@ -453,6 +454,7 @@
         <name>ListView</name>
     </types>
     <types>
+        <members>Account.Force_Error</members>
         <members>Relationship__c.Related_Contact_Do_Not_Change</members>
         <name>ValidationRule</name>
     </types>
