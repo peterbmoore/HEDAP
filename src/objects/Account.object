@@ -34,4 +34,11 @@
         <trackFeedHistory>false</trackFeedHistory>
         <type>Lookup</type>
     </fields>
+    <validationRules>
+        <fullName>Force_Error</fullName>
+        <active>false</active>
+        <description>A test validation rule to force an error</description>
+        <errorConditionFormula>Name != &apos;Wayne Enterprises&apos;</errorConditionFormula>
+        <errorMessage>You shall not pass! Only Batman may enter!</errorMessage>
+    </validationRules>
 </CustomObject>
